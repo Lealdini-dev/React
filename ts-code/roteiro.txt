@@ -1,0 +1,17 @@
+comecou com um:  npm init -y
+
+a sequencia: npm install --save-dev lite-server
+
+criado o app.js & app.ts 
+
+criado o html e adicionado: <script src="app.js" defer></script>
+
+foi instalado o tyscript: npm install -g typescript
+
+Foi adicionado um 
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+},
+
+depois um: tsc app.ts -t es5 -w
